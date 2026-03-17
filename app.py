@@ -4,7 +4,7 @@ import gradio as gr
 import time
 
 # Load API key
-client = genai.Client(api_key=os.getenv("GOOGLE_API_KEY"))
+client = genai.Client(api_key=os.getenv("AIzaSyBdhi3XfGH2cdh1s1MZb1OtuH6CdsDUPUE"))
 
 def chat(message, history):
     try:
